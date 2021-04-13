@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Goals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="left">
+            <img src="img/logo.png" alt="logo">
+
+            <div>Fitness Goals</div>
+        </div>
+
+
+        <div class="mid">
+
+            <ul class="navbar">
+
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#">About Us</a></li>
+                <li> <a href="#">Fitness Calculator</a></li>
+                <li> <a href="#">Contact Us</a></li>
+
+
+            </ul>
+        </div>
+
+
+        <div class="right">
+            <button class="btn">Log In</button>
+            <button class="btn">Register</button>
+        </div>
+
+
+    </header>
+
+
+
+    <div class="container">
+        <h1 id=" abc">Join the best Gym in Kolkata</h1>
+
+        <form action="noaction.php" class="form_group" name="myform" onsubmit="return validate()">
+            <input type="text" name="name" placeholder="Full name" autofocus><br>
+            <input type="tel" name="num" placeholder="Contact number" size="10" required><br>
+            <input type="number" name="zip" placeholder="Zip Code" size="6"><br>
+            <input type="date" name="dob" required><br>
+           
+            <input type="submit" name="submit" placeholder="Submit" class="btn" onclick="return validate()">
+
+
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
